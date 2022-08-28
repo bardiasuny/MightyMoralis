@@ -26,11 +26,11 @@ namespace MoralisUnity.Demos.Introduction
             authKit = authenticationKitObject.GetComponent<AuthenticationKit>();
 
 
-            var client = new RestClient("https://eth-mainnet.g.alchemy.com/nft/v2/ffSqd83ZiR36Pay-y5ShWkS6ffGxs0Nl/getFloorPrice");
-            var request = new RestRequest(Method.Get.ToString());
-            request.AddHeader("Accept", "application/json");
-            RestResponse response = client.Execute(request);
-            print(response)
+            //var client = new RestClient("https://eth-mainnet.g.alchemy.com/nft/v2/ffSqd83ZiR36Pay-y5ShWkS6ffGxs0Nl/getFloorPrice");
+            //var request = new RestRequest(Method.Get.ToString());
+            //request.AddHeader("Accept", "application/json");
+            //RestResponse response = client.Execute(request);
+            //print(response)
         }
         public void Authentication_OnConnect()
         {
